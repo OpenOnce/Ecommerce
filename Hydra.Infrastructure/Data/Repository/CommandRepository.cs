@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Storage;
 using Hydra.Infrastructure.Data.Interface;
-using Hydra.Infrastructure.GeneralModels;
+using Hydra.Infrastructure.Data.Extension;
 
 namespace Hydra.Infrastructure.Data.Repository
 {

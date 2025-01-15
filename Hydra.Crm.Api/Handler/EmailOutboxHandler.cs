@@ -1,8 +1,8 @@
 ﻿
 using Hydra.Crm.Core.Interfaces;
 using Hydra.Crm.Core.Models.Email;
+using Hydra.Infrastructure.Data.Extension;
 using Hydra.Infrastructure.GeneralModels;
-
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;

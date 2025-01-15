@@ -2,10 +2,9 @@
 using Hydra.Cms.Core.Domain;
 using Hydra.Cms.Core.Interfaces;
 using Hydra.Cms.Core.Models;
-using Hydra.Kernel.Interfaces.Data;
-
+using Hydra.Infrastructure.Data.Interface;
+using Hydra.Infrastructure.GeneralModels;
 using Microsoft.EntityFrameworkCore;
-using Org.BouncyCastle.Utilities;
 
 
 namespace Hydra.Cms.Api.Services

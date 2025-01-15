@@ -4,11 +4,8 @@ using Hydra.Cms.Core.Models;
 using Hydra.FileStorage.Core.Domain;
 using Hydra.FileStorage.Core.Models;
 using Hydra.Infrastructure.GeneralModels;
-using Hydra.Infrastructure.Security.Domain;
-using Hydra.Infrastructure.GeneralModels;
-using Hydra.Kernel.Interfaces.Data;
-
 using Microsoft.EntityFrameworkCore;
+using Hydra.Infrastructure.Data.Interface;
 
 
 namespace Hydra.Cms.Api.Services

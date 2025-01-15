@@ -1,8 +1,7 @@
 ﻿
 using Hydra.Crm.Core.Interfaces;
-using Hydra.Infrastructure.GeneralModels;
+using Hydra.Infrastructure.Data.Extension;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
 namespace Hydra.Crm.Api.Handler

@@ -22,7 +22,11 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\Hydra.Auth.Api\Hydra.Auth.Api.csproj" />
+		<ProjectReference Include="..\Hydra.Cms.Api\Hydra.Cms.Api.csproj" />
+		<ProjectReference Include="..\Hydra.Crm.Api\Hydra.Crm.Api.csproj" />
+		<ProjectReference Include="..\Hydra.FileStorage.Api\Hydra.FileStorage.Api.csproj" />
 		<ProjectReference Include="..\Hydra.Infrastructure\Hydra.Infrastructure.csproj" />
+		<ProjectReference Include="..\Hydra.Sale.Api\Hydra.Sale.Api.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>

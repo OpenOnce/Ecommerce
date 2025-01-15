@@ -1,6 +1,7 @@
 ﻿using Hydra.FileStorage.Core.Interfaces;
 using Hydra.FileStorage.Core.Settings;
-using Hydra.Kernel.Interfaces.Settings;
+using Hydra.Infrastructure.GeneralModels;
+using Hydra.Infrastructure.Setting.Interface;
 
 
 namespace Hydra.FileStorage.Api.Services

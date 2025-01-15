@@ -1,9 +1,9 @@
 ﻿using Hydra.Crm.Core.Interfaces;
 using Hydra.Crm.Core.Models;
+using Hydra.Infrastructure.GeneralModels;
 using Hydra.Infrastructure.Setting.Domain;
+using Hydra.Infrastructure.Setting.Enum;
 using Hydra.Infrastructure.Setting.Service;
-
-using System.Text.Json;
 
 namespace Hydra.Crm.Api.Services
 {
@@ -53,13 +53,13 @@ namespace Hydra.Crm.Api.Services
                 {
                     Key = nameof(messageSettingModel.RecipientIdsForContactMessage),
                     Value = messageSettingModel.RecipientIdsForContactMessage.Length > 0 ? string.Join(",", messageSettingModel.RecipientIdsForContactMessage) : null,
-                    ValueType = Infrastructure.Setting.SettingValueTypeEnum.IntegerArray
+                    ValueType = SettingValueTypeEnum.IntegerArray
                 });
                 _settingService.AddOrUpdate(new SiteSetting()
                 {
                     Key = nameof(messageSettingModel.RecipientIdsForRequestMessage),
                     Value = messageSettingModel.RecipientIdsForRequestMessage.Length > 0 ? string.Join(",", messageSettingModel.RecipientIdsForRequestMessage) : null,
-                    ValueType = Infrastructure.Setting.SettingValueTypeEnum.IntegerArray
+                    ValueType = SettingValueTypeEnum.IntegerArray
                 });
 
                 result.Data = messageSettingModel;

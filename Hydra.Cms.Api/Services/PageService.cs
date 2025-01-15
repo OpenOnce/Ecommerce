@@ -2,10 +2,10 @@
 using Hydra.Cms.Core.Interfaces;
 using Hydra.Cms.Core.Models;
 using Hydra.Infrastructure.GeneralModels;
-using Hydra.Infrastructure.GeneralModels;
-using Hydra.Kernel.Interfaces.Data;
+using Hydra.Infrastructure.Data.Extension;
 
 using Microsoft.EntityFrameworkCore;
+using Hydra.Infrastructure.Data.Interface;
 
 
 namespace Hydra.Cms.Api.Services

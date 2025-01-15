@@ -8,7 +8,6 @@ public class ProductPicture : BaseEntity<int>
     public int PictureId { get; set; }
     public FileUpload Picture { get; set; }
     
-
     public int ProductId { get; set; }
 
     public int DisplayOrder { get; set; }

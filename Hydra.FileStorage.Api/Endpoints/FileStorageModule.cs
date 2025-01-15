@@ -2,13 +2,11 @@
 using Hydra.FileStorage.Api.Services;
 using Hydra.FileStorage.Core.Interfaces;
 using Hydra.FileStorage.Core.SignatureVerify;
-using Hydra.Infrastructure.Data.Repository;
 using Hydra.Infrastructure.ModuleExtension;
-using Hydra.Infrastructure.Security.Extensions;
-using Hydra.Kernel.Interfaces.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
+using Hydra.Infrastructure.Security.Extension;
 
 namespace Hydra.FileStorage.Api.Endpoints
 {
@@ -21,8 +19,6 @@ namespace Hydra.FileStorage.Api.Endpoints
             services.AddScoped<IFileTypeVerifier, FileTypeVerifier>();
             services.AddScoped<IValidationService, ValidationService>();
             services.AddScoped<IFileStorageService, FileStorageService>();
-            services.AddScoped<ICommandRepository, CommandRepository>();
-            services.AddScoped<IQueryRepository, QueryRepository>();
 
             return services;
         }

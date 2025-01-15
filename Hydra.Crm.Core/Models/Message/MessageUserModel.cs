@@ -1,5 +1,6 @@
 ﻿using Hydra.Infrastructure.Security.Domain;
 using Hydra.Infrastructure.Data;
+using Hydra.Infrastructure.GeneralModels;
 
 
 namespace Hydra.Crm.Core.Models.Message

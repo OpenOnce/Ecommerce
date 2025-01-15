@@ -1,4 +1,5 @@
-﻿using Hydra.Infrastructure.GeneralModels;
+﻿using Hydra.Infrastructure.Data.Extension;
+using Hydra.Infrastructure.GeneralModels;
 
 using Hydra.Sale.Core.Models;
 using Hydra.Sale.Core.Models.Enums;

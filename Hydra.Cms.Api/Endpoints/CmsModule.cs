@@ -2,11 +2,10 @@
 using Hydra.Cms.Api.Services;
 using Hydra.Cms.Core.Interfaces;
 using Hydra.Infrastructure.ModuleExtension;
-using Hydra.Infrastructure.Security.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
-
+using Hydra.Infrastructure.Security.Extension;
 namespace Hydra.Cms.Api.Endpoints
 {
     public class CmsModule : IModule

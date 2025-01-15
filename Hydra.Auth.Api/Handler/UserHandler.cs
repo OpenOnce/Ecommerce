@@ -1,4 +1,4 @@
-﻿using Hydra.Infrastructure.GeneralModels;
+﻿using Hydra.Infrastructure.Data.Extension;
 using Hydra.Infrastructure.Security.Interface;
 using Hydra.Infrastructure.Security.Models;
 using Microsoft.AspNetCore.Http;

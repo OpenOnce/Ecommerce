@@ -1,7 +1,6 @@
-﻿using Hydra.Infrastructure.GeneralModels;
+﻿using Hydra.Infrastructure.Data.Extension;
+using Hydra.Infrastructure.Data.Interface;
 using Hydra.Infrastructure.GeneralModels;
-using Hydra.Kernel.Interfaces.Data;
-
 using Hydra.Sale.Core.Domain;
 using Hydra.Sale.Core.Interfaces;
 using Hydra.Sale.Core.Models;

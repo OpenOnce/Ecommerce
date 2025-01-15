@@ -2,7 +2,7 @@
 using Hydra.Crm.Api.Services;
 using Hydra.Crm.Core.Interfaces;
 using Hydra.Infrastructure.ModuleExtension;
-using Hydra.Infrastructure.Security.Extensions;
+using Hydra.Infrastructure.Security.Extension;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;

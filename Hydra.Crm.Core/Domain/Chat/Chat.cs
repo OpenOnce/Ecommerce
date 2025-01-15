@@ -1,5 +1,4 @@
-﻿using Hydra.Infrastructure.Security.Domain;
-using Hydra.Infrastructure.Data;
+﻿using Hydra.Infrastructure.Data;
 
 namespace Hydra.Crm.Core.Domain.Chat
 {

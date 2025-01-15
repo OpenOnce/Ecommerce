@@ -1,5 +1,4 @@
 ﻿using System.Security.Claims;
-using Hydra.Infrastructure.GeneralModels;
 using Hydra.Sale.Core.Interfaces;
 using Hydra.Sale.Core.Models;
 using Microsoft.AspNetCore.Http;

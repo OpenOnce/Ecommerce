@@ -5,8 +5,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Hydra.Infrastructure.Data.Interface;
 using Hydra.Infrastructure.Security.Interface;
-using Hydra.Infrastructure.GeneralModels;
 using Microsoft.Extensions.Localization;
+using Hydra.Infrastructure.Data.Extension;
 
 namespace Hydra.Infrastructure.Security.Service
 {

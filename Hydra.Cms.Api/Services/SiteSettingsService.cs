@@ -1,9 +1,9 @@
 ﻿using Hydra.Cms.Core.Interfaces;
 using Hydra.Cms.Core.Models;
+using Hydra.Infrastructure.GeneralModels;
 using Hydra.Infrastructure.Setting.Domain;
+using Hydra.Infrastructure.Setting.Enum;
 using Hydra.Infrastructure.Setting.Service;
-
-
 
 namespace Hydra.Cms.Api.Services
 {
@@ -55,37 +55,37 @@ namespace Hydra.Cms.Api.Services
                 {
                     Key = nameof(siteSettingsModel.SiteTitle),
                     Value = siteSettingsModel.SiteTitle,
-                    ValueType = Infrastructure.Setting.SettingValueTypeEnum.String
+                    ValueType = SettingValueTypeEnum.String
                 });
                 _settingService.AddOrUpdate(new SiteSetting()
                 {
                     Key = nameof(siteSettingsModel.SiteDescription),
                     Value = siteSettingsModel.SiteDescription,
-                    ValueType = Infrastructure.Setting.SettingValueTypeEnum.String
+                    ValueType = SettingValueTypeEnum.String
                 });
                 _settingService.AddOrUpdate(new SiteSetting()
                 {
                     Key = nameof(siteSettingsModel.SiteKeywords),
                     Value = siteSettingsModel.SiteKeywords,
-                    ValueType = Infrastructure.Setting.SettingValueTypeEnum.String
+                    ValueType = SettingValueTypeEnum.String
                 });
                 _settingService.AddOrUpdate(new SiteSetting()
                 {
                     Key = nameof(siteSettingsModel.HeaderHtml),
                     Value = siteSettingsModel.HeaderHtml,
-                    ValueType = Infrastructure.Setting.SettingValueTypeEnum.String
+                    ValueType = SettingValueTypeEnum.String
                 });
                 _settingService.AddOrUpdate(new SiteSetting()
                 {
                     Key = nameof(siteSettingsModel.FooterHtml),
                     Value = siteSettingsModel.FooterHtml,
-                    ValueType = Infrastructure.Setting.SettingValueTypeEnum.String
+                    ValueType = SettingValueTypeEnum.String
                 });
                 _settingService.AddOrUpdate(new SiteSetting()
                 {
                     Key = nameof(siteSettingsModel.NumberOfPostsPerList),
                     Value = siteSettingsModel.NumberOfPostsPerList.ToString(),
-                    ValueType = Infrastructure.Setting.SettingValueTypeEnum.Integer
+                    ValueType = SettingValueTypeEnum.Integer
                 });
 
                 result.Data = siteSettingsModel;

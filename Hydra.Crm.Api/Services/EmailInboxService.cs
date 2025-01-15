@@ -3,16 +3,12 @@ using Hydra.Crm.Core.Domain.Email;
 using Hydra.Crm.Core.Interfaces;
 using Hydra.Crm.Core.Models.Email;
 using Hydra.FileStorage.Core.Interfaces;
-using Hydra.Infrastructure;
-using Hydra.Infrastructure.Data;
 using Hydra.Infrastructure.GeneralModels;
-using Hydra.Infrastructure.Email.Service;
-using Hydra.Infrastructure.GeneralModels;
-using Hydra.Kernel.Interfaces.Data;
-
 using Microsoft.EntityFrameworkCore;
 using MimeKit;
-using static System.Net.Mime.MediaTypeNames;
+using Hydra.Infrastructure.Data.Interface;
+using Hydra.Infrastructure.Notification.Email.Interface;
+using Hydra.Infrastructure.Data.Extension;
 
 
 namespace Hydra.Crm.Api.Services

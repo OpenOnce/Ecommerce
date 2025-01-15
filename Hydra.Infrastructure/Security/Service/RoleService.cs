@@ -1,13 +1,12 @@
 ﻿using EFCoreSecondLevelCacheInterceptor;
 using Hydra.Infrastructure.Security.Models;
-using Hydra.Infrastructure.Data;
 using Hydra.Infrastructure.GeneralModels;
 using Hydra.Infrastructure.Security.Domain;
 using Microsoft.EntityFrameworkCore;
 using Hydra.Infrastructure.Data.Interface;
 using Hydra.Infrastructure.Security.Interface;
-using Hydra.Infrastructure.GeneralModels;
 using Microsoft.Extensions.Localization;
+using Hydra.Infrastructure.Data.Extension;
 
 namespace Hydra.Infrastructure.Security.Service
 {

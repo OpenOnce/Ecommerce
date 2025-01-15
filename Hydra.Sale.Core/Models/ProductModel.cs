@@ -1,4 +1,5 @@
 ﻿using Hydra.FileStorage.Core.Models;
+using Hydra.Infrastructure.GeneralModels;
 
 
 namespace Hydra.Sale.Core.Models

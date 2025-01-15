@@ -1,5 +1,5 @@
 ﻿using Hydra.Infrastructure.ModuleExtension;
-using Hydra.Infrastructure.Security.Extensions;
+using Hydra.Infrastructure.Security.Extension;
 using Hydra.Sale.Api.Handler;
 using Hydra.Sale.Api.Services;
 using Hydra.Sale.Core.Interfaces;

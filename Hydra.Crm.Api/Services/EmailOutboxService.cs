@@ -5,14 +5,12 @@ using Hydra.Crm.Core.Models.Email;
 using Hydra.FileStorage.Core.Interfaces;
 using Hydra.Infrastructure;
 using Hydra.Infrastructure.GeneralModels;
-using Hydra.Infrastructure.Email.Models;
-using Hydra.Infrastructure.Email.Service;
-using Hydra.Infrastructure.GeneralModels;
-using Hydra.Kernel.Interfaces.Data;
-
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
-using System.Linq;
+using Hydra.Infrastructure.Data.Interface;
+using Hydra.Infrastructure.Notification.Email.Interface;
+using Hydra.Infrastructure.Data.Extension;
+using Hydra.Infrastructure.Notification.Email.Models;
 
 
 namespace Hydra.Crm.Api.Services

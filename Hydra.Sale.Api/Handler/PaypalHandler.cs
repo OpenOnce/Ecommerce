@@ -1,5 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
-using Hydra.Infrastructure.Payment.Paypal.Service;
+﻿using Hydra.Infrastructure.Payment.Paypal.Interface;
+using Microsoft.AspNetCore.Http;
 
 namespace Hydra.Sale.Api.Handler
 {

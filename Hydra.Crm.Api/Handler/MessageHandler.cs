@@ -1,11 +1,10 @@
-﻿using Hydra.Auth.Core.Interfaces;
-using Hydra.Crm.Core.Interfaces;
+﻿using Hydra.Crm.Core.Interfaces;
 using Hydra.Crm.Core.Models.Message;
-using Hydra.Infrastructure.Security.Domain;
-using Hydra.Infrastructure.GeneralModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
+using Hydra.Infrastructure.Data.Extension;
+using Hydra.Infrastructure.Security.Interface;
 
 namespace Hydra.Crm.Api.Handler
 {

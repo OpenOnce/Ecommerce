@@ -1,14 +1,13 @@
 ﻿using EFCoreSecondLevelCacheInterceptor;
 using Hydra.Infrastructure.GeneralModels;
-using Hydra.Infrastructure.GeneralModels;
-using Hydra.Kernel.Interfaces.Data;
-
+using Hydra.Infrastructure.Data.Interface;
 using Hydra.Sale.Core.Domain;
 using Hydra.Sale.Core.Interfaces;
 using Hydra.Sale.Core.Models;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json.Linq;
 using System.Linq.Dynamic.Core;
+using Hydra.Infrastructure.Data.Extension;
 
 namespace Hydra.Sale.Api.Services
 {

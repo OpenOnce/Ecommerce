@@ -1,6 +1,6 @@
 ﻿using Hydra.Crm.Core.Models.Email;
+using Hydra.Infrastructure.Data.Extension;
 using Hydra.Infrastructure.GeneralModels;
-
 using Microsoft.AspNetCore.Http;
 
 namespace Hydra.Crm.Core.Interfaces

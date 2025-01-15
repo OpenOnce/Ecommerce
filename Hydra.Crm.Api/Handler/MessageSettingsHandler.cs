@@ -1,5 +1,4 @@
-﻿
-using Hydra.Crm.Core.Interfaces;
+﻿using Hydra.Crm.Core.Interfaces;
 using Hydra.Crm.Core.Models;
 using Microsoft.AspNetCore.Http;
 

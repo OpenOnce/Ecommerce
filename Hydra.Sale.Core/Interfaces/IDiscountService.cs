@@ -1,5 +1,5 @@
-﻿using Hydra.Infrastructure.GeneralModels;
-
+﻿using Hydra.Infrastructure.Data.Extension;
+using Hydra.Infrastructure.GeneralModels;
 using Hydra.Sale.Core.Models;
 
 namespace Hydra.Sale.Core.Interfaces

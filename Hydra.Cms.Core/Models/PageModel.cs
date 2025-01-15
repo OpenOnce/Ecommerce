@@ -1,6 +1,8 @@
 ﻿
 
 
+using Hydra.Infrastructure.GeneralModels;
+
 namespace Hydra.Cms.Core.Models
 {
     public record PageModel

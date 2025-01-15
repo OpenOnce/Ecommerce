@@ -1,10 +1,9 @@
 ﻿using Hydra.Crm.Core.Domain.Subscribe;
 using Hydra.Crm.Core.Interfaces;
 using Hydra.Crm.Core.Models.Subscribe;
+using Hydra.Infrastructure.Data.Extension;
+using Hydra.Infrastructure.Data.Interface;
 using Hydra.Infrastructure.GeneralModels;
-using Hydra.Infrastructure.GeneralModels;
-using Hydra.Kernel.Interfaces.Data;
-
 using Microsoft.EntityFrameworkCore;
 
 namespace Hydra.Crm.Api.Services

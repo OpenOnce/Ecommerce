@@ -1,4 +1,5 @@
 ﻿using Hydra.Crm.Core.Models.Subscribe;
+using Hydra.Infrastructure.Data.Extension;
 using Hydra.Infrastructure.GeneralModels;
 
 

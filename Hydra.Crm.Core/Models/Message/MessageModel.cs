@@ -1,5 +1,5 @@
 ﻿using Hydra.Crm.Core.Domain.Message;
-
+using Hydra.Infrastructure.GeneralModels;
 using System.ComponentModel.DataAnnotations;
 
 namespace Hydra.Crm.Core.Models.Message
