@@ -1,6 +1,6 @@
 ﻿using EFCoreSecondLevelCacheInterceptor;
 using Hydra.Infrastructure.Security.Models;
-using Hydra.Infrastructure.GeneralModels;
+using Hydra.Infrastructure.Data.Extension;
 using Hydra.Infrastructure.Security.Domain;
 using Microsoft.EntityFrameworkCore;
 using Hydra.Infrastructure.Data.Interface;
