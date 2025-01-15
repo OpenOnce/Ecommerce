@@ -7,10 +7,11 @@ using System.Linq.Expressions;
 using EFCoreSecondLevelCacheInterceptor;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
-using Hydra.Infrastructure.Data.Extension;
+using Hydra.Infrastructure.GeneralModels;
 using Hydra.Infrastructure.Data.Interface;
+using Hydra.Infrastructure.Data.Extension;
 
-namespace Hydra.Infrastructure.Data
+namespace Hydra.Infrastructure.Data.Repository
 {
     public class QueryRepository : IQueryRepository
     {
@@ -558,7 +559,7 @@ namespace Hydra.Infrastructure.Data
             CancellationToken cancellationToken = default)
             where T : BaseEntity<long>
         {
-            return GetByIdAsync<T>(id, null, asNoTracking,  cacheable, cancellationToken);
+            return GetByIdAsync<T>(id, null, asNoTracking, cacheable, cancellationToken);
         }
 
         public Task<T> GetByIdAsync<T>(
@@ -568,7 +569,7 @@ namespace Hydra.Infrastructure.Data
             CancellationToken cancellationToken = default)
             where T : BaseEntity<long>
         {
-            return GetByIdAsync(id, includes, asNoTracking: false,  cacheable, cancellationToken);
+            return GetByIdAsync(id, includes, asNoTracking: false, cacheable, cancellationToken);
         }
 
         public async Task<T> GetByIdAsync<T>(
@@ -985,7 +986,7 @@ namespace Hydra.Infrastructure.Data
             List<T> items = await _dbContext.GetFromQueryAsync<T>(sql, parameters, cancellationToken);
             return items;
         }
-        public Task<int> SaveChangesAsync(CancellationToken cancellationToken = default(CancellationToken)) => _dbContext.SaveChangesAsync(cancellationToken);
+        public Task<int> SaveChangesAsync(CancellationToken cancellationToken = default) => _dbContext.SaveChangesAsync(cancellationToken);
         public void Dispose()
         {
             _dbContext.Dispose();

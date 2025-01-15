@@ -1,5 +1,5 @@
 ﻿using Hydra.Infrastructure.Security.Models;
-using Hydra.Infrastructure.Data.Extension;
+using Hydra.Infrastructure.GeneralModels;
 using Hydra.Infrastructure.Security.Domain;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;

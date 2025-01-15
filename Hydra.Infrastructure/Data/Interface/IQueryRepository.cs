@@ -1,10 +1,7 @@
 ﻿using System.Data.Common;
 using System.Linq.Expressions;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Query;
-using Microsoft.EntityFrameworkCore.Storage;
-using System.Data;
 using Hydra.Infrastructure.Data.Extension;
+using Microsoft.EntityFrameworkCore.Query;
 
 namespace Hydra.Infrastructure.Data.Interface
 {

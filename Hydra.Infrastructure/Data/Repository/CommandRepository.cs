@@ -8,9 +8,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Storage;
 using Hydra.Infrastructure.Data.Interface;
-using Hydra.Infrastructure.Data.Extension;
+using Hydra.Infrastructure.GeneralModels;
 
-namespace Hydra.Infrastructure.Data
+namespace Hydra.Infrastructure.Data.Repository
 {
     public class CommandRepository : ICommandRepository
     {
@@ -80,7 +80,7 @@ namespace Hydra.Infrastructure.Data
             }
 
             _dbContext.Set<T>().Update(entity);
-            
+
         }
 
         public void UpdateAsync<T>(IEnumerable<T> entities, CancellationToken cancellationToken = default)
@@ -139,10 +139,11 @@ namespace Hydra.Infrastructure.Data
             return _dbContext.Database.ExecuteSqlRawAsync(sql, parameters, cancellationToken);
         }
 
-        public Task<int> SaveChangesAsync(CancellationToken cancellationToken = default(CancellationToken)) {
+        public Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
 
             return _dbContext.SaveChangesAsync(cancellationToken);
-        
+
         }
 
         public int SaveChanges() => _dbContext.SaveChanges();

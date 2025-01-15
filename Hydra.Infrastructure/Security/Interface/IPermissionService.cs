@@ -1,7 +1,6 @@
 ﻿using Hydra.Infrastructure.Security.Models;
-using Hydra.Infrastructure.Security.Domain;
-using Hydra.Infrastructure.Data.Extension;
 using Hydra.Infrastructure.GeneralModels;
+using Hydra.Infrastructure.Data.Extension;
 
 namespace Hydra.Infrastructure.Security.Interface
 {
